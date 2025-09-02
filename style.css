@@ -88,3 +88,49 @@ a {
   justify-content: center;
   align-items: center;
 }
+
+.content {
+  padding: 50px 200px;
+}
+
+.content h2 {
+  font-size: 32px;
+  font-weight: 900;
+  color: #1f2937;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.zoid-models {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.zoid-model {
+  flex: 0 1 200px;
+  text-align: center;
+}
+
+.zoid-model img {
+  width: 250px;
+  height: 200px;
+  border: 3px solid #3882f6;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.zoid-model h3 {
+  font-size: 24px;
+  color: #1f2937;
+  margin: 10px 0;
+}
+
+.zoid-model p {
+  font-size: 16px;
+  color: #1f2937;
+  text-align: center;
+  margin: 0;
+  max-width: 300px;
+}
