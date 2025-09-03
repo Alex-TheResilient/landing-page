@@ -260,7 +260,7 @@ a {
   font-size: 18px;
 }
 
-.explore button {
+.explore .explore-button {
   background-color: transparent;
   color: white;
   border: 2px solid white;
