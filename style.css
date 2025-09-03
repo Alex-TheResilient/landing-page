@@ -48,6 +48,15 @@ a {
   gap: 50px;
 }
 
+.hero-main button {
+  background-color: #3882f6;
+  color: white;
+  border: none;
+  padding: 7px 24px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
 .hero-content {
   flex: 1;
 }
@@ -94,7 +103,7 @@ a {
 }
 
 .content h2 {
-  font-size: 32px;
+  font-size: 36px;
   font-weight: 900;
   color: #1f2937;
   margin-bottom: 50px;
@@ -133,4 +142,92 @@ a {
   text-align: center;
   margin: 0;
   max-width: 300px;
+}
+
+.best-zoid {
+  background-color: #e5e7eb;
+  padding: 40px 200px;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.zoid-stats {
+  flex: 2;
+  padding: 30px;
+}
+
+.zoid-stats p {
+  font-size: 22px;
+  color: #374151;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+.stats-card {
+  background-color: #1f2937;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.zoid-stats h3 {
+  font-size: 28px;
+  color: #f9faf8;
+  font-weight: 900;
+  margin-bottom: 20px;
+  text-align: center;
+  border-bottom: 3px solid #3882f6;
+  padding-bottom: 10px;
+}
+
+.zoid-stats h3 {
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 1.6;
+}
+
+.zoid-stats ul {
+  margin: 0;
+  padding: 0;
+}
+
+.zoid-stats li {
+  font-size: 18px;
+  color: #f9faf8;
+  margin-bottom: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid #e5e7eb;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+}
+
+.zoid-stats li:last-child {
+  border-bottom: none;
+}
+
+.zoid-showcase {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.zoid-showcase h2 {
+  font-size: 40px;
+  font-weight: 900;
+  color: #1f2937;
+  margin-bottom: 30px;
+}
+
+.zoid-image img {
+  width: 400px;
+  height: 250px;
+  border-radius: 15px;
+  object-fit: cover;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  border: 3px solid #3882f6;
 }
